@@ -1,13 +1,13 @@
 #include <Keyboard.h>
 #include <FastLED.h>
 
-#define LED_PIN     5
-#define NUM_LEDS    240
+#define LED_PIN     3             // Pin 5 does not seem to work on our board.
+#define NUM_LEDS    300//259// * 2
 #define BRIGHTNESS  255
 #define LED_TYPE    WS2812B
 #define COLOR_ORDER GRB
 
-#define LED_UPDATE_COUNT 5
+#define LED_UPDATE_COUNT 18
 #define SNAKE_COUNT NUM_LEDS/LED_UPDATE_COUNT
 
 ////////////////////////////////////////////////////////////////////////
